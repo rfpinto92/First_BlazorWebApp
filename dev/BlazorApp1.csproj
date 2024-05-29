@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<PublishUrl>docs</PublishUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="Pages\Counter.razor" />
+	  <Content Remove="wwwroot\images\about-img1.jpg" />
+	  <Content Remove="wwwroot\images\about-img2.jpg" />
+	  <Content Remove="wwwroot\images\blog1.jpg" />
+	  <Content Remove="wwwroot\images\blog2.jpg" />
+	  <Content Remove="wwwroot\images\envelope-white.png" />
+	  <Content Remove="wwwroot\images\fb.png" />
+	  <Content Remove="wwwroot\images\insta.png" />
+	  <Content Remove="wwwroot\images\instagram.png" />
+	  <Content Remove="wwwroot\images\linkedin.png" />
+	  <Content Remove="wwwroot\images\location-white.png" />
+	  <Content Remove="wwwroot\images\logo.png" />
+	  <Content Remove="wwwroot\images\menu.png" />
+	  <Content Remove="wwwroot\images\next.png" />
+	  <Content Remove="wwwroot\images\plug.png" />
+	  <Content Remove="wwwroot\images\prev.png" />
+	  <Content Remove="wwwroot\images\s1.png" />
+	  <Content Remove="wwwroot\images\s2.png" />
+	  <Content Remove="wwwroot\images\s3.png" />
+	  <Content Remove="wwwroot\images\s4.png" />
+	  <Content Remove="wwwroot\images\s5.png" />
+	  <Content Remove="wwwroot\images\slider-img.jpg" />
+	  <Content Remove="wwwroot\images\telephone-white.png" />
+	  <Content Remove="wwwroot\images\twitter.png" />
+	  <Content Remove="wwwroot\images\youtube.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="images\" />
+	  <Folder Include="wwwroot\NewFolder\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\images\about-img1.jpg" />
+	  <None Include="wwwroot\images\about-img2.jpg" />
+	  <None Include="wwwroot\images\blog1.jpg" />
+	  <None Include="wwwroot\images\blog2.jpg" />
+	  <None Include="wwwroot\images\envelope-white.png" />
+	  <None Include="wwwroot\images\fb.png" />
+	  <None Include="wwwroot\images\insta.png" />
+	  <None Include="wwwroot\images\instagram.png" />
+	  <None Include="wwwroot\images\linkedin.png" />
+	  <None Include="wwwroot\images\location-white.png" />
+	  <None Include="wwwroot\images\logo.png" />
+	  <None Include="wwwroot\images\menu.png" />
+	  <None Include="wwwroot\images\next.png" />
+	  <None Include="wwwroot\images\plug.png" />
+	  <None Include="wwwroot\images\prev.png" />
+	  <None Include="wwwroot\images\s1.png" />
+	  <None Include="wwwroot\images\s2.png" />
+	  <None Include="wwwroot\images\s3.png" />
+	  <None Include="wwwroot\images\s4.png" />
+	  <None Include="wwwroot\images\s5.png" />
+	  <None Include="wwwroot\images\slider-img.jpg" />
+	  <None Include="wwwroot\images\telephone-white.png" />
+	  <None Include="wwwroot\images\twitter.png" />
+	  <None Include="wwwroot\images\youtube.png" />
+	</ItemGroup>
+
+</Project>

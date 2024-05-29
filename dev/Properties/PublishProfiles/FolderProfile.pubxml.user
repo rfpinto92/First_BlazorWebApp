@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>bin\Release\net8.0\browser-wasm\publish\</_PublishTargetUrl>
+    <History>True|2024-05-24T13:12:32.7373131Z;True|2024-05-24T12:39:04.0143882+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="images/about-img1.jpg">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/about-img2.jpg">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/blog1.jpg">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/blog2.jpg">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/envelope-white.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/fb.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/insta.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/instagram.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/linkedin.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/location-white.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/menu.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/next.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/plug.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/prev.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/s1.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/s2.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/s3.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/s4.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/s5.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/slider-img.jpg">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/telephone-white.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/twitter.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+    <File Include="images/youtube.png">
+      <publishTime>05/24/2024 14:54:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
